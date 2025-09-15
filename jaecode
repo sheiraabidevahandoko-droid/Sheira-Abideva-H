@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Profil — Jaehyun (NCT)</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin: 24px; background:#f7f7fb; color:#111; }
+    .card { max-width:800px; margin:0 auto; background:#fff; border-radius:12px; box-shadow:0 6px 20px rgba(20,20,50,0.08); padding:24px; }
+    .hero { display:flex; gap:20px; align-items:center; }
+    .photo { width:180px; height:180px; border-radius:10px; overflow:hidden; flex:0 0 180px; background:#eee; display:flex; align-items:center; justify-content:center; }
+    .photo img { width:100%; height:100%; object-fit:cover; display:block; }
+    .title { margin:0; font-size:20px; }
+    .subtitle { margin:6px 0 0 0; color:#666; font-size:14px; }
+    .facts { margin-top:18px; display:grid; grid-template-columns:repeat(2,1fr); gap:10px; }
+    .fact { background:#fbfbff; padding:10px; border-radius:8px; font-size:14px; }
+    .bio { margin-top:18px; line-height:1.6; color:#222; }
+    .source { margin-top:14px; font-size:13px; color:#555; }
+  </style>
+</head>
+<body>
+  <article class="card">
+    <header class="hero">
+      <div class="photo">
+        <!-- Ganti IMAGE_URL_HERE dengan URL gambar Jaehyun -->
+        <img src="IMAGE_URL_HERE" alt="Jaehyun (NCT) portrait" />
+      </div>
+      <div>
+        <h1 class="title">Jaehyun (재현)</h1>
+        <p class="subtitle">Penyanyi · Anggota NCT / NCT 127 · Solois</p>
+        <p class="subtitle">Lahir: 14 Februari 1997 — Seoul, Korea Selatan</p>
+      </div>
+    </header>
+
+    <section class="facts" aria-label="Fakta singkat">
+      <div class="fact"><strong>Nama lahir:</strong> Jeong Jae-hyun / Jeong Yun-o</div>
+      <div class="fact"><strong>Agensi:</strong> SM Entertainment</div>
+      <div class="fact"><strong>Posisi:</strong> Vokal, Lead Dancer, Visual</div>
+      <div class="fact"><strong>Solo debut:</strong> 26 Agustus 2024</div>
+    </section>
+
+    <section class="bio" aria-label="Biografi singkat">
+      <p>
+        Jaehyun diperkenalkan sebagai trainee SM Rookies sebelum debut resmi bersama unit-unit NCT.
+        Ia dikenal dengan suara yang hangat, kemampuan dance yang kuat, dan kehadiran panggung yang
+        elegan. Menghabiskan sebagian masa kecil di Amerika (Connecticut), Jaehyun cukup fasih berbahasa
+        Inggris dan sering tampil untuk proyek musikal serta fashion. Selain kegiatan grup, Jaehyun juga
+        menjalankan kegiatan solo dan menjadi duta merek fashion internasional.
+      </p>
+    </section>
+
+    <footer class="source">
+      <p>Sumber ringkas: profil dan liputan (Wikipedia, artikel wawancara & fansites).</p>
+    </footer>
+  </article>
+</body>
+</html>
